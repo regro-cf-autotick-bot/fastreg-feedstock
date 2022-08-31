@@ -1,5 +1,5 @@
 {% set name = "fastreg" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastreg-{{ version }}.tar.gz
-  sha256: 56d504d02cbff1dc55775bf40b317ab402cc89702d5a34882c5c70216381806f
+  sha256: 1ae6c01464ed586435333c8ad5d77ea18e9bad95d7a91d962b58be736f6daa96
 
 build:
   noarch: python
